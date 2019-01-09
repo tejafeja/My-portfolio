@@ -1,4 +1,5 @@
-body, html {
+body, 
+html {
   max-height: 100%;
   margin: 0;
   padding: 0;
@@ -11,12 +12,19 @@ body, html {
   font-weight: 300;
 }
 
-h1, h2, h3, h4 {
+h1, 
+h2, 
+h3, 
+h4 {
   text-transform: uppercase;
   margin: 0;
 }
 
-header, footer, section, article, div {
+header, 
+footer, 
+section, 
+article, 
+div {
   box-sizing: border-box;
 }
 
@@ -125,8 +133,18 @@ header, footer, section, article, div {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100vw;
+  position: relative;
+  margin-left: -50vw;
+  left: 50%;
 }
 
+.row-full {
+width: 99.225vw;
+position: relative;
+margin-left: -49.59vw;
+left: 50%;
+}
 /*
  *
  * Featured work
@@ -144,7 +162,9 @@ header, footer, section, article, div {
   margin-bottom: 20px;
 }
 
-.image-1, .image-2, .image-3 {
+.image-1, 
+.image-2, 
+.image-3 {
   margin-top: 15px;
   margin-bottom: 15px;
 }
@@ -162,6 +182,10 @@ footer {
   box-sizing: border-box;
   width: 100%;
   margin: 0;
+  width: 100vw;
+  position: relative;
+  margin-left: -50vw;
+  left: 50%;
 }
 
 #bottom {
@@ -172,7 +196,8 @@ footer {
   vertical-align: middle;
 }
 
-.fb-icon, .linkedin-icon {
+.fb-icon, 
+.linkedin-icon {
   float: right;
   width: 20px;
   padding: 1px;
